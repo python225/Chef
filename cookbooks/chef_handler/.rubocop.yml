@@ -1,0 +1,11 @@
+# rubocop todo
+
+Style/CaseEquality:
+  Exclude:
+    - 'libraries/helpers.rb'
+
+# Configuration parameters: Methods.
+# Methods: {"reduce"=>["a", "e"]}, {"inject"=>["a", "e"]}
+Style/SingleLineBlockParams:
+  Exclude:
+    - 'libraries/helpers.rb'
